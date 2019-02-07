@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MobileCalculator"
+             x:Class="MobileCalculator.MainPage">
+    <ContentPage.Content>
+        <Grid x:Name="calculatorGrid" RowSpacing="1" ColumnSpacing="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90" />
+                <RowDefinition Height="120" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label x:Name="result" Text="" Grid.Row="0" BackgroundColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="White"
+        FontSize="40" Grid.ColumnSpan="5" />
+            <Label x:Name="numbers" Text="0" Grid.Row="1" BackgroundColor="Black" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="White"
+        FontSize="60" Grid.ColumnSpan="5" />
+            <Button Text = "7" Grid.Row="2" Grid.Column="0" Clicked="ButNumber_clicked"/>
+            <Button Text = "8" Grid.Row="2" Grid.Column="1" Clicked="ButNumber_clicked"/>
+            <Button Text = "9" Grid.Row="2" Grid.Column="2" Clicked="ButNumber_clicked"/>
+            <Button x:Name="butDiv" Text = "/" Grid.Row="2" Grid.Column="3" Clicked="ButOperator_clicked"/>
+            <Button Text = "4" Grid.Row="3" Grid.Column="0" Clicked="ButNumber_clicked"/>
+            <Button Text = "5" Grid.Row="3" Grid.Column="1" Clicked="ButNumber_clicked"/>
+            <Button Text = "6" Grid.Row="3" Grid.Column="2" Clicked="ButNumber_clicked"/>
+            <Button x:Name="butMult" Text = "*" Grid.Row="3" Grid.Column="3" Clicked="ButOperator_clicked"/>
+            <Button Text = "1" Grid.Row="4" Grid.Column="0" Clicked="ButNumber_clicked"/>
+            <Button Text = "2" Grid.Row="5" Grid.Column="1" Clicked="ButNumber_clicked"/>
+            <Button Text = "3" Grid.Row="5" Grid.Column="2" Clicked="ButNumber_clicked"/>
+            <Button x:Name="butAdd" Text = "+" Grid.Row="4" Grid.Column="3" Clicked="ButOperator_clicked" />
+            <Button x:Name="butSub" Text = "-" Grid.Row="5" Grid.Column="3" Clicked="ButOperator_clicked" />
+            <Button Text = "0" Grid.Row="5" Grid.Column="0" Clicked="ButNumber_clicked" Grid.ColumnSpan="3" />
+            <Button x:Name="butEq" Text = "=" Grid.Row="3" Grid.Column="4" Clicked="ButEq_clicked" Grid.RowSpan="3"/>
+            <Button x:Name="butClear" Text = "C" Grid.Row="2" Grid.Column="4" Clicked="ButClear_clicked"/>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

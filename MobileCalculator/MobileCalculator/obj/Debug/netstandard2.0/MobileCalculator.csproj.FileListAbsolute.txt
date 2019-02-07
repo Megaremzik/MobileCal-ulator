@@ -1,0 +1,12 @@
+D:\MobileCalculator\MobileCalculator\MobileCalculator\bin\Debug\netstandard2.0\MobileCalculator.deps.json
+D:\MobileCalculator\MobileCalculator\MobileCalculator\bin\Debug\netstandard2.0\MobileCalculator.dll
+D:\MobileCalculator\MobileCalculator\MobileCalculator\bin\Debug\netstandard2.0\MobileCalculator.pdb
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.csprojAssemblyReference.cache
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.csproj.CoreCompileInputs.cache
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.AssemblyInfoInputs.cache
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.AssemblyInfo.cs
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.dll
+D:\MobileCalculator\MobileCalculator\MobileCalculator\obj\Debug\netstandard2.0\MobileCalculator.pdb
